@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/scrollView" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="\nUnit 1. Wireless Communication Fundamentals \n \nUnit 2. Telecommunication Network \n \nUnit 3. Wireless LAN \n \nUnit 4. Mobile Network Layer \n \nUnit 5. Transport and Application Layer"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/scrollView"
+            android:layout_margin="10sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</RelativeLayout>
